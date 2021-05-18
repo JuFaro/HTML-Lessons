@@ -1,0 +1,89 @@
+body{
+    background-color:lightyellow;
+    font-size: 20px;
+}
+header{
+
+    background-image: url(https://inhabitat.com/wp-content/blogs.dir/1/files/2015/01/urine-sewage-beer-1.jpg);
+}
+h1{
+    text-align: center;
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.menu{
+    margin: 0; padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style:none;
+    border:2px solid darkorange;
+    float:left;
+        }
+.menu li{
+position:relative;
+float:left;
+border-right:2px solid darkorange;
+
+}
+.menu li a:hover{
+
+    background:burlywood;   
+    color:#fff;  
+    text-shadow:0px 0px 5px burlywood;
+    
+    }
+
+.menu2{
+    margin: 0; padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style:none;
+    border:2px solid darkorange;
+    float:right;
+        }
+.menu2 li{
+    position:relative;
+    float:left;
+    border-right:2px solid  darkorange;
+
+}
+.menu2 li a:hover{
+
+    background:burlywood;   
+    color:#fff;  
+    text-shadow:0px 0px 5px burlywood;
+    
+    }
+    .txtBusca{
+        float:left;     
+        background-color:transparent;
+        outline:none;  
+        padding-left:5px;     
+        font-size:18px;           
+        height:35px;     
+        width:240px;
+        border-color:  darkorange; 
+        border-radius:7px 7px 7px 7px;    
+        
+      }
+
+      .btnBusca{
+        border:none;
+        background-color:transparent;  
+        float:left; 
+        height:35px;
+        border-radius:7px 7px 7px 7px; 
+        width:35px; 
+        font-weight:bold; 
+      }
+      
+       
+      
+     
+                  
+  

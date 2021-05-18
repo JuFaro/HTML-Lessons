@@ -1,0 +1,23 @@
+Links da semana:
+
+https://soulcodeacademy.teachable.com/courses/ => pagina do curso
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/b => acessibilidade no cod
+
+https://dev.w3.org/html5/html-author/charref => caracteres especiais site
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes => atributos html5
+
+https://www.w3schools.com/ => tutorias de linguagens de prog voltadas para web
+
+https://liveweave.com/
+
+https://codepen.io/pen/
+
+Amazonas (AM) 
+Roraima (RR)
+Amapá (AP) 
+Pará (PA) 
+Rondônia (RO)
+Acre (AC) 
+

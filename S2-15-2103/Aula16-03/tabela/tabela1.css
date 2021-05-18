@@ -1,0 +1,15 @@
+table {
+    margin: auto;
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+tbody tr td {
+    background-color: cyan;
+    border: 2px solid red;
+}

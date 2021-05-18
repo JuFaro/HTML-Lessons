@@ -1,0 +1,19 @@
+Unidade 0 - Aula 001
+Unidade 1 - Aula006
+
+tarefas:
+
+pontos turisticos
+brincando de hacker
+
+De acordo com o W3C (World Wide Web Consortium) a Web é baseada em 3 pilares:
+
+Um esquema de nomes para localização de fontes de informação na Web, esse esquema chama-se URI.**
+Um Protocolo de acesso para acessar estas fontes, hoje o HTTP.
+Uma linguagem de Hypertexto, para a fácil navegação entre as fontes de informação: o HTML.
+
+**Basicamente uma URI identifica e uma URL localiza um recurso, entretanto, localizadores também são identificadores, ou seja, as URLs são um subconjunto do conjunto de URIs.
+
+De acordo com as regras de SEO, é recomendado que uma página possua apenas uma tag <h1> que indique seu assunto, pois essa tag informa aos motores de busca qual sua principal palavra-chave.
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/b => acessibilidade no cod

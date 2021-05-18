@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Vacina JulianaFR</title>
+</head>
+<body>
+    <table border="" >
+        <caption><h1>Formulário de Vacinação</h1></caption>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <tr>
+                <td>
+                   <label for="name">Nome Completo:</label>
+                   <input type="text" required="" name="name" id="name" placeholder="João Silva">
+                </td>
+                <td>
+                    <label for="date">Data de atendimento:</label>
+                    <input type="datetime-local" required="" name="date" id="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birth">Data de Nascimento:</label>
+                    <input type="date" required="" name="birth" id="birth">
+                </td>
+                <td>
+                    <label for="bloodtype">Tipo Sanguíneo:</label>
+                    <input type="list" required="" list="blood" id="bloodtype">
+                    <datalist id="blood">
+                        <option value="A"></option>
+                        <option value="B"></option>
+                        <option value="AB"></option>
+                        <option value="O"></option>
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" required="" placeholder="XX-XXXXX-XXXX"   pattern="^\d{2}-\d{5}-\d{4}$" title="XX-XXXXX-XXXX" id="tel">
+                </td>
+                <td>
+                    <label for="RH">Fator RH:</label>
+                    <select required="" name="RH" id="RH">
+                        <option value=""></option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="" id="email" placeholder="joao@email.com">
+                </td>
+                <td>
+                    <label for="vaccine">Vacinas Aplicadas:</label>
+                    <input type="text" required="" id="vaccine" placeholder="Liste suas Vacinas">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="street">Rua:</label>
+                    <input type="text" required="" id="street" >
+                </td>
+                <td>
+                    <label for="comorbidities">Comorbidades:</label>
+                    <input type="text" required="" id="comorbidities">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Número:</label>
+                    <input type="number" required="" name="number" id="number" >
+                </td>
+                <td>
+                    <label for="tele">Contato de Emergência:</label>
+                    <input type="tele" required="" placeholder="XX-XXXXX-XXXX"   pattern="\d{2}-\d{5}-\d{4}$" title="XX-XXXXX-XXXX" id="tele">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="comp">Complemento:</label>
+                <input type="text" id="comp" placeholder="Bloco / Apto /...">
+                </td>
+
+                <td>
+                    <label for="par">Parentesco:</label>
+                    <input type="text" id="par" placeholder="Mãe/ Cônjuge/ Irmão / ...">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="district">Bairro:</label>
+                    <input type="text" required="" name="district" id="district">
+                </td>
+                <td>
+                    <label for="color">Prioridade de Atendimento*:</label> 
+                    <input type="color" name="color" id="color">
+                    <input type="list" required="" list="color1" id="colortype">
+                    <datalist id="color1">
+                        <option value="Vermelho"></option>
+                        <option value="Laranja"></option>
+                        <option value="Amarelo"></option>
+                        <option value="Verde"></option>
+                        <option value="Azul"></option>
+                    </datalist>                                  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="cep">CEP:</label>
+                <input type="number" required="" name="cep" id="cep" placeholder="99999999" pattern="^\d{8}$">
+                </td>
+                <td>
+                    <label for="">Velociade de Atendimento:</label>
+                    <input type="range" required="" min="0" max="10" name="speed" id="speed" list="marks">
+                    <datalist id="marks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist> <br>
+                    <input  type="radio" name="vel" id="vel">
+                    <label  for="Lenta">Lenta</label>
+                    <input  type="radio" name="vel" id="vel">
+                    <label for="aceitavel">Aceitável</label>
+                    <input   type="radio" name="vel" id="vel" >
+                    <label  for="rapida">Rápida</label>                
+                </td>
+
+            </tr>
+           
+            <tr>
+                <td>
+                    <label for="city">Cidade:</label> 
+                    <input type="text" required="" name="city" id="city">
+                </td>
+                <td rowspan="2" >
+                    <label for="Observation">Observações:</label> <br>
+                    <input type="text" name="" id="" value="Apenas para anotações adicionais" style="margin: 0px; width: 400px;">
+                    
+                                        
+                </td>
+           </tr>
+           <tr>
+               <td>
+                <label for="state">Estado:</label> 
+                <input type="text" required="" name="state" id="state">
+               </td>               
+           </tr>
+           <tr>
+                
+            <td align="center" colspan="2">
+                <div class="button">
+                    <button type="submit">Submeter</button>
+                </div>
+            </td>
+           </tr>
+           
+        </form>
+    </table>
+    
+    <div >
+        <h4 >*Cores de prioridade</h4>
+        <ul  >
+            <li>
+            Vermelha – Emergência: atendimento imediato;
+        </li>
+        <li>
+            Laranja – Muito urgente: espera de até 10 minutos;
+        </li>
+        <li>
+            Amarelo – Urgente: espera de até 1 hora;
+        </li>
+        <li>
+            Verde – Pouco urgente: espera de até 2 horas;
+        </li>
+        <li>
+            Azul – Não urgente: espera de até 4 horas
+        </li>
+        </ul>
+    </div>
+   
+
+    
+</body>
+</html>

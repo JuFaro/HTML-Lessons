@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h2>Cadastre-se</h2>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" required=""  placeholder="Digite o nome " name="nome" id="nome" autofocus>
+                </div>
+                  <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+          
+               <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" name="" id="data">
+                
+            </div>
+            <div>
+                <label for="numb">Idade:</label>
+                <input type="number" min="18" max="120" id="numb">
+            </div>
+            <div>
+                <label for="slide">Sliders:</label>
+                <input type="range"  min="0" max="10"   name="slide" id="slide">
+            </div>
+            <div>
+                <input type="range" min="0" max="10" step="1" list="tickmarks">
+                    <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="2"></option>
+                    <option value="4"></option>
+                    <option value="6"></option>
+                    <option value="8"></option>
+                    <option value="10"></option>
+                </datalist>
+
+            </div>
+
+            <div>
+                <label for="color">Cor:</label>
+                <input type="color" name="head" id="head" value="#e66465">
+            </div>
+
+            <div>
+                <label for="gender">Genêro:</label>
+                <select name="gender" id="gender">
+                    <option value="Fem">Feminino</option>
+                    <option value="Man">Masculino</option>
+                    <option value="other">Outro</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="">Selecione um item:</label>
+                <input type="list" list="itens">
+                <datalist id="itens">
+                    <option value="Web design"></option>
+                    <option value="Web full stack"></option>
+                    <option value="HTML"></option>
+                </datalist>
+            </div>
+                
+            <div>
+                <label for="tel">Telefone:</label>
+                <input type="tel"  pattern="^\d{2}-\d{5}-\d{4}$" title="12-98817-2010" id="tel">
+            </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="" id="email">
+                    <input type="submit" value="go">
+                </div>
+             <div>
+                    <label for="username">Username:</label>
+                    <input type="text"  name="" id="username">
+                </div>
+                    <div>
+                        <label for="Senha">Senha:</label>
+                       <input type="password" name="" id="Senha">
+                    </div>
+        
+                    <div class="button">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+
+                    <div>
+                        <label for="birthdaytime">Birthday (date and time):</label>
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                        <input type="submit">
+                    </div>
+
+                    <div id="divBusca">
+
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                      
+                        <img src="calendario.png" id="btnBusca" alt="Buscar"/>
+                      
+                      </div>
+                   
+            
+           
+               
+        </form>
+       
+  
+
+  
+    
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveja Por Assinatura</title>
+    <link rel="stylesheet" href="formulario.css">
+    
+</head>
+
+<body>
+
+<header >
+    
+
+        <h1>Cerveja por Assinatura</h1>
+        <img class="img1" src="https://www.homemcerveja.com.br/wp-content/uploads/2014/07/package-beer-row.png" alt="Alguns tipos de cerveja">
+        <nav>
+           <ul class="menu">
+            <li> <a href="#Selecao"> Seleção De Cerveja</a></li>
+             <li> <a href="#Copo"> Copo Colecionável</a></li>
+            </ul>                                
+        <ul class="menu2">
+            <li><a href="#Entrar">Entre</a></li>
+            <li><a href="#cadastro">Cadastre-se</a><li>
+        </ul>
+  
+        </nav>
+       
+</header>
+
+
+<main>
+    <div class="divBusca" id="divBusca">
+
+        <input type="text" class="txtBusca" id="txtBusca" placeholder="Buscar..."/>
+      
+        <img src="busca.PNG" class="btnBusca" id="btnBusca" alt="Buscar"/>
+      
+    </div>
+            
+    <table  align="center" width="80%">
+        <tr>
+            <td><h2 id="Selecao">Seleção</h2></td>
+        </tr>
+
+        <tr >
+            
+            <td  align="center"><img src="https://www.vaisefood.com/wp-content/uploads/2014/12/cervejas2014_3.jpg" width="50%"></td>
+            <td align="center" > <strong>Através da nossa assinatura de cerveja artesanal, as sommeliers da SoulCode preparam mensalmente uma seleção com as melhores cervejas nacionais e importadas, pensando sempre nas maiores experiências cervejeiras para que nossos clientes possam degustar e vivenciar. <br> E o melhor? Entregamos na porta da sua casa.</strong></td>
+        </tr>
+        <tr>
+            <td><h2 id="Copo">Copo Colecionável</h2></td>
+        </tr>
+        
+        <tr>
+            
+            <td align="center" ><strong>Se você está em dúvida em quais clubes das cervejas pode assinar, saiba que somos o único que vem com copo incluso no seu Beer Pack. <br> Todo mês um copo das marcas mais consagradas para você colecionar!</strong></td>
+            <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVFOcl2uOb_c6m9RAvB2jukOfhLWyRocOmOg&usqp=CAU" ></td>
+        </tr>
+   
+    </table>
+    
+    <table id="cadastro">
+        <h2>Cadastre-se</h2>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <tr>
+                <td> <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" required=""  placeholder="Digite o nome " name="nome" id="nome" autofocus>
+                </div></td>
+                <td>   <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" required="" placeholder="Digite o Sobrenome" name="sobrenome" id="sobrenome">
+                </div></td>
+            </tr>
+           <tr>
+               <td><div>
+                <label for="numb">Idade:</label>
+                <input type="number" min="18" max="120" id="numb">
+            </div></td>
+            <td>
+                <label for="gender">Genêro:</label>
+                <select name="gender" id="gender">
+                    <option value="nun"></option>
+                    <option value="Fem">Feminino</option>
+                    <option value="Man">Masculino</option>
+                    <option value="other">Outro</option>
+                </select>
+                
+            </td>
+           </tr>
+           <tr>
+               <td> <div>
+                <label for="tel">Telefone:</label>
+                <input type="tel" required="" placeholder="(XX)(XXXXX)-(XXXX)"   pattern="^\d{2}\d{5}-\d{4}$" title="(XX)(XXXXX)-(XXXX)" id="tel">
+            </div></td>
+            <td>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" required=""   placeholder="ex. breja@clubedebreja.com" name="" id="email">
+                </div>
+            </td>
+           </tr>
+         
+            <tr>
+                <td> <div>
+                    <label for="username">Username:</label>
+                    <input type="text" required=""  placeholder="Ex. Breja1990"  name="" id="username">
+                </div></td>
+                <td>
+                    <div>
+                        <label for="Senha">Senha:</label>
+                       <input type="password"   required=""  placeholder="Digite sua senha" name="" id="Senha">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+            
+                <td></td>
+                <td>
+                    <div class="button">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </td>
+            </tr>
+           
+               
+        </form>
+       
+    </table>
+
+    <table id="Entrar">
+        <h2>Entre</h2>
+        <form action="">
+            <tr>
+                <td> <div>
+                    <label for="username">Username:</label>
+                    <input type="text" required=""  placeholder="Ex. Breja1990" name="" id="username">
+                </div></td>
+              
+            
+            <td>
+                <div>
+                    <label for="Senha">Senha:</label>
+                   <input type="password" required="" placeholder="Digite sua senha" name="" id="Senha">
+                </div>
+            </td>
+        </tr>
+
+            <tr>
+            
+                <td></td>
+                <td>
+                    <div class="button">
+                        <button type="submit">Entrar</button>
+                    </div>
+                </td>
+            </tr>
+        </form>
+    </table>
+
+   
+    
+</main>
+
+
+</body>
+
+</html>

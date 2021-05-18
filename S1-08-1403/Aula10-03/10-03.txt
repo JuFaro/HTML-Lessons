@@ -1,0 +1,18 @@
+Unidade 1 - Aula007
+Unidade 3 - Aula016
+
+tarefas:
+
+Caracteres Especiais
+Questionario aula 07/08 unidade 1
+Questionario aula 12 unidade 2
+Questionario aula 16 unidade 3
+site musica (não entregar)
+regios do Brasil ( não entregar)
+
+
+
+https://dev.w3.org/html5/html-author/charref => caracteres especiais site
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes atributos html5
+

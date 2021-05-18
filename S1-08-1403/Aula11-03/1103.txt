@@ -1,0 +1,17 @@
+Unidade 4 - Aula017
+Unidade 5 - Aula023
+
+tarefas:
+Pontos Turìsticos com Imagem
+Listas Definidas, ordenadas e näo ordenadas
+Listas e Links
+
+
+Duvidas:
+
+Head
+ - no Meta keywords separo as palavras chaves por "," ou ";"?
+
+construção de pág. JPEG / PNG
+mais avançado = SVG
+

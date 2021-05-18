@@ -1,0 +1,10 @@
+Unidade 6 - Aula028
+Unidade 8 - Aula034
+
+Tarefas:
+
+*Para informação e conteúdo que fará sentido se visto fora do seu site como em leitores de RSS ou outros meios, utilize o article.
+
+*Para separar e organizar conteúdos de diversos assuntos em blocos diferentes, utilize o section.
+
+*Para utilização não semântica, detalhes genéricos e etc, utilize div.
